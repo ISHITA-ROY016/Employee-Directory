@@ -20,5 +20,6 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Build and Test (H2 in-memory)
-        run: mvn clean verify -Dspring.profiles.active=test
+      - name: Build and Test
+        run: mvn clean verify
+

@@ -1,7 +1,7 @@
-package com.luv2code.springboot.cruddemo.controller;
+package com.ishita.springboot.cruddemo.controller;
 
-import com.luv2code.springboot.cruddemo.entity.Employee;
-import com.luv2code.springboot.cruddemo.service.EmployeeService;
+import com.ishita.springboot.cruddemo.entity.Employee;
+import com.ishita.springboot.cruddemo.service.EmployeeService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
